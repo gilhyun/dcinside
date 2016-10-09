@@ -3,38 +3,22 @@ Unofficial Dcinside API
 ===============================
 
 
-.. image:: https://img.shields.io/pypi/v/dcinside.svg
-        :target: https://pypi.python.org/pypi/dcinside
-
-.. image:: https://img.shields.io/travis/carcdrcons/dcinside.svg
-        :target: https://travis-ci.org/carcdrcons/dcinside
-
-.. image:: https://readthedocs.org/projects/dcinside/badge/?version=latest
-        :target: https://dcinside.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/carcdrcons/dcinside/shield.svg
-     :target: https://pyup.io/repos/github/carcdrcons/dcinside/
-     :alt: Updates
-
-
 디시인사이드 비공식 API입니다.
 
 ============
 Installation
 ============
 
-.. code-block:: bash
 
+```bash
     $ pip install git+https://github.com/carcdrcons/dcinside
+```
 
 ============
 Usage
 ============
 
-.. code:: python
-
-
+```python
     # -*- coding:utf-8 -*-
     import random
     import string
@@ -110,12 +94,9 @@ Usage
 
     # 글을 지웁니다.
     # api.post.delete(GALL_NAME_EN, post['post_num'], PASSWORD)
-
+```
 
 * Free software: MIT license
-* Documentation: https://dcinside.readthedocs.io.
-
-
 
 Features
 --------
@@ -127,6 +108,6 @@ Credits
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Cookiecutter: (https://github.com/audreyr/cookiecutter)
+* `audreyr/cookiecutter-pypackage`: (https://github.com/audreyr/cookiecutter-pypackage)
 
