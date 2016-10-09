@@ -5,7 +5,8 @@ from __future__ import division
 from __future__ import absolute_import
 from future import standard_library
 standard_library.install_aliases()
-from . import api
+
+from . import api  # noqa
 
 __author__ = 'carcdrcons'
 __email__ = 'simple-is-better-than-complex@carcdrcons.com'
